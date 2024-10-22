@@ -12,6 +12,7 @@ function Resume({ }) {
 
   return (
     <div>
+      <div className="flex flex-col items-center justify-center min-h-screen">
       <main className="main-container">
         <div className="grid gap-5 lg:grid-cols-3">
           <div className="space-y-5">
@@ -129,6 +130,7 @@ function Resume({ }) {
           </div>
         </div>
       </main>
+      </div>
     </div>
   );
 }
