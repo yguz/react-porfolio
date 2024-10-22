@@ -79,6 +79,14 @@ const Navbar = () => {
           </li>
           <li>
             <a
+              href="#projects"
+              className="text-gray-700 hover:text-white hover:bg-gray-700 px-3 py-2 rounded"
+            >
+              Projects
+            </a>
+          </li>
+          <li>
+            <a
               href="#contact"
               className="text-gray-700 hover:text-white hover:bg-gray-700 px-3 py-2 rounded"
             >

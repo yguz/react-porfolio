@@ -14,6 +14,9 @@ function Resume({ }) {
     <div>
       <div className="flex flex-col items-center justify-center min-h-screen">
       <main className="main-container">
+      <h1 className="text-4xl font-bold text-gray-800 mb-4">
+          My journey <span className="text-2xl font-bold text-gray-800 mb-4">... so far</span>
+        </h1>
         <div className="grid gap-5 lg:grid-cols-3">
           <div className="space-y-5">
             <div className="shadow rounded-xl overflow-hidden">
