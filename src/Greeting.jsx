@@ -2,7 +2,7 @@ import React from 'react';
 
 function Greeting( ) {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-blue-50">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-custom-purple">
       <h1 className="text-4xl font-bold text-gray-800 mb-4">
         Hello!
       </h1>

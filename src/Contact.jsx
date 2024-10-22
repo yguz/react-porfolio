@@ -15,7 +15,7 @@ function Contact() {
 
   return (
     <div className="flex w-full min-h-screen justify-center items-center">
-      <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-indigo-500 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden">
+      <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-custom-purple-darker w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden">
         <div className="flex flex-col space-y-8 justify-between">
           <div>
             <h1 className="font-bold text-4xl tracking-wide">Let's Talk!</h1>
@@ -99,8 +99,8 @@ function Contact() {
           </div>
         </div>
         <div className="relative">
-          <div className="absolute z-0 w-40 h-40 bg-indigo-400 rounded-full -right-28 -top-28"></div>
-          <div className="absolute z-0 w-40 h-40 bg-indigo-400 rounded-full -left-28 -bottom-16"></div>
+          <div className="absolute z-0 w-40 h-40 bg-custom-purple rounded-full -right-28 -top-28"></div>
+          <div className="absolute z-0 w-40 h-40 bg-custom-purple rounded-full -left-28 -bottom-16"></div>
           <div className="relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
             <form className="flex flex-col space-y-4" onSubmit={handleSendEmail}>
               <div>
@@ -135,7 +135,7 @@ function Contact() {
                   onChange={(e) => setMessage(e.target.value)}
                 />
               </div>
-              <button type="submit" className="bg-indigo-600 text-white p-2 rounded-md">Send</button>
+              <button type="submit" className="bg-custom-purple-darker text-white p-2 rounded-md">Send</button>
             </form>
           </div>
         </div>
