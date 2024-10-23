@@ -759,3 +759,28 @@ img {
   --tw-bg-opacity: 1;
   background-color: rgba(124, 58, 237, var(--tw-bg-opacity));
 }
+
+.messages {
+  scrollbar-width: thin;
+  /* For Firefox */
+}
+
+.messages::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+}
+
+.messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Background of the scrollbar track */
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Color of the scrollbar thumb */
+}
+
+.messages::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Color of the scrollbar thumb on hover */
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import Chatbot from './Chatbot';
 
 function Projects({ }) {
 
@@ -13,12 +14,13 @@ function Projects({ }) {
       <div className="flex flex-col space-y-4 w-1/3">
         {/* Card 1 */}
         <div className="bg-white rounded-lg shadow-lg p-4 transform transition-all duration-300 hover:scale-105">
-          <h2 className="text-lg font-bold mb-2">Project One</h2>
+          <h2 className="text-lg font-bold mb-2">Pizza Website</h2>
           <p className="text-gray-700 mb-4">
-            A brief description of your first project goes here. This could include its features and technologies used.
+            This is a simple website presenting information about a restaurant's menu.
           </p>
           <a
-            href="#"
+            target="_blank"
+            href="https://yguz.github.io/PizzaWebsite/index.html"
             className="text-blue-500 hover:underline"
           >
             View Project
@@ -27,12 +29,13 @@ function Projects({ }) {
 
         {/* Card 2 */}
         <div className="bg-white rounded-lg shadow-lg p-4 transform transition-all duration-300 hover:scale-105">
-          <h2 className="text-lg font-bold mb-2">Project Two</h2>
+          <h2 className="text-lg font-bold mb-2">Drum Kit Sound Website</h2>
           <p className="text-gray-700 mb-4">
-            A brief description of your second project goes here. Include important details or links if necessary.
+            This project showcases the use of event-driven actions using Javascript.
           </p>
           <a
-            href="#"
+            target="_blank"
+            href="https://yguz.github.io/drumKitSounds/"
             className="text-blue-500 hover:underline"
           >
             View Project
@@ -45,8 +48,9 @@ function Projects({ }) {
         <div className="bg-gray-100 rounded-lg shadow-lg p-6 h-full w-full">
           <h2 className="text-xl font-bold mb-2 text-center">Chatbot App</h2>
           <p className="text-gray-700 text-center">
-            This area showcases your chatbot application. You can integrate the chatbot here or provide additional info.
+            This area showcases a chatbot application. This was done using fetch, and an API.
           </p>
+          < Chatbot />
         </div>
       </div>
     </div>
